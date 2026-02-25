@@ -3,7 +3,7 @@ Berikut adalah prompt yang dapat Anda gunakan untuk meminta AI lain atau develop
 ---
 
 **Prompt untuk AI / Developer:**
-
+```
 "Halo, saya sedang mengembangkan script tunneling baru dan ingin mengadopsi arsitektur yang kuat dan terbukti untuk menangani traffic VLESS, VMess, Trojan, dan Shadowsocks (WebSocket & gRPC) serta SSH, semuanya berjalan di port 80 dan 443 secara bersamaan.
 
 Saat ini script saya belum menggunakan HAProxy, namun saya ingin menambahkannya sebagai *load balancer* utama di depan, karena arsitektur referensi yang saya gunakan sangat bergantung padanya untuk memilah traffic.
@@ -46,3 +46,4 @@ Tolong bantu saya mengimplementasikan konfigurasi berikut secara lengkap dan ter
    - Semua inbound harus mendengarkan di `127.0.0.1` saja untuk keamanan.
 
 Mohon buatkan konfigurasi lengkap untuk `haproxy.cfg`, `nginx.conf` (atau file conf.d terpisah), dan snippet `inbounds` untuk `config.json` Xray yang saling kompatibel."
+```
