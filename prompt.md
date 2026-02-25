@@ -5,7 +5,7 @@ Salin dan tempel prompt di bawah ini ke AI (seperti ChatGPT atau Claude) untuk m
 ---
 
 **Prompt:**
-
+```
 Tolong buatkan saya sistem REST API lengkap untuk mengelola script manajemen akun saya yang berbasis Bash. Saya ingin menggunakan **Node.js (Express)** sebagai server API-nya.
 
 Berikut adalah spesifikasi lengkap yang saya butuhkan:
@@ -43,3 +43,4 @@ Buatkan script instalasi bash yang melakukan hal berikut secara otomatis:
 *   Menjalankan wizard setup Telegram di akhir instalasi.
 
 Tolong berikan kode lengkap untuk `api.js`, `install-api.sh`, dan fungsi bash untuk integrasi Telegram-nya.
+```
