@@ -1,5 +1,6 @@
 # Prompt Pembuatan Aplikasi Telegram Mini App (Web App) untuk VPN Generator
 
+```
 Anda adalah seorang Software Engineer ahli yang sangat mahir dalam membuat bot Telegram menggunakan Node.js (Telegraf) dan mengembangkan Telegram Mini Apps (Web Apps) menggunakan HTML, CSS, dan JavaScript murni yang ringan dan responsif.
 
 Tugas Anda adalah membuatkan saya *full-stack* source code untuk aplikasi Telegram Mini App (Web App) dengan spesifikasi, fitur, dan ketentuan API sebagai berikut:
@@ -131,3 +132,4 @@ Tolong berikan saya kode lengkap yang terstruktur:
 4.  **Kode Bot Backend (`bot.js`)**: Logika Telegraf, routing Express untuk hosting frontend, validasi Cloudflare Turnstile, dan interaksi webhook/pesan.
 5.  **Kode Frontend Mini App (`public/index.html`, `style.css`, `app.js`)**: Tampilan form dengan integrasi widget **Cloudflare Turnstile** dan fungsi `window.Telegram.WebApp`. UI harus mendukung tema gelap (Dark Theme) mengikuti tema bawaan Telegram, elegan, rapi, responsif.
 6.  **Instruksi Instalasi:** Berikan perintah npm install beserta environment variables yang harus disetel (seperti `BOT_TOKEN`, `TURNSTILE_SITE_KEY`, `TURNSTILE_SECRET_KEY`).
+```
